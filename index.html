@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de spa</title>
+    <!-- Para tipo de letra Romantina -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Romanesco&display=swap" rel="stylesheet">
+    <!-- Para tipo de letra Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Romanesco&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <section class="navegacion">
+
+        <nav class="navegacion-izquierda">
+            <ul>
+                <li><a href="">Promociones</a></li>
+                <li><a href="">Fotos</a></li>
+                <li><a href="">Servicios</a></li>
+                <li><a href="">Mapa</a></li>
+                <li><a href="">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="navegacion-derecha">
+            <section class="usuario">
+                <img src="/images/user.png" alt="Logo de la empresa">
+                <div>
+                    <h2> Mi cuenta </h2>
+                </div>
+            </section>
+            <section class="idiomas">
+                <div>
+                    <h2> ES </h2>
+                </div>
+                <img src="/images/flag.png" alt="idiomas">
+                <div class="arrow-imagen">
+                    <img src="/images/arrow.png" alt="arrow">
+                </div>
+            </section>
+        </div>
+    </section>
+    <section class="menu-principal">
+        <img src="/images/main.png" alt="Logo de la empresa">
+        <div class="texto-principal">
+            <h1>SPA - Todos</h1>
+            <P>Regálate un momento de paz y <br>
+                consciente a tu piel en el mejor lugar</P>
+        </div>
+    </section>
+    <section class="reserva-cita">
+        <div>
+            <label for="reservaCita">RESERVA TU CITA: </label>
+            <input type="text" id="reservaCita" name="reservaCita">
+        </div>
+        <div>
+            <label for="codigoPromocional">CÓDIGO PROMOCIONAL: </label>
+            <input type="text" id="codigoPromocional" name="codigoPromocional" placeholder="CODIGO">
+        </div>
+    </section>
+    <section class="card-service-container">
+        <div class="card-service">
+
+            <!-- Tarjeta masaje pies -->
+            <div class="card-service-descripcion">
+
+                <h1>Masaje de pies</h1>
+
+                <img src="images/pies.png" alt="">
+            </div>
+            <div class="card-service-texto">
+                <p>Esta es una descripción de la opcion en cuestion ...
+                </p>
+            </div>
+            <div class="card-service-pago">
+                <div>
+                    <h2>$65</h2>
+                </div>
+                <div>
+                    <input type="button" value="Reservar">
+                </div>
+            </div>
+
+            <!-- Tarjeta  -->
+        </div>
+
+        <div class="card-service">
+
+            <!-- Tarjeta masaje relajante -->
+            <div class="card-service-descripcion">
+
+                <h1>Masaje relajante</h1>
+
+                <img src="images/relajante.png" alt="">
+            </div>
+            <div class="card-service-texto">
+                <p>Esta es una descripción de la opcion en cuestion ...
+                </p>
+            </div>
+            <div class="card-service-pago">
+                <div>
+                    <h2>$65</h2>
+                </div>
+                <div>
+                    <input type="button" value="Reservar">
+                </div>
+            </div>
+        </div>
+
+        <div class="card-service">
+
+            <!-- Tarjeta masaje con bambú -->
+            <div class="card-service-descripcion">
+
+                <h1>Masaje de pies</h1>
+
+                <img src="images/bambu.png" alt="">
+            </div>
+            <div class="card-service-texto">
+                <p>Esta es una descripción de la opcion en cuestion ...
+                </p>
+            </div>
+            <div class="card-service-pago">
+                <div>
+                    <h2>$65</h2>
+                </div>
+                <div>
+                    <input type="button" value="Reservar">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Seccion de socios -->\
+    <section class="seccion-socios">
+        <div class="socios-encabezado">
+            <h1>Haste socio y prueba nuestro productos</h1>
+        </div>
+        <div>
+
+        </div>
+        <div class="socios-tarjetas-container">
+            <!-- Categoría Gold -->
+            <div class="presentacion-socios">
+                <div class="tarjeta-categoria-socio">
+                    <div class="rango-socio-logo">
+                        <img src="images/gold.png" alt="">
+                    </div>
+                    <div>
+                        <h1>GOLD</h1>
+                    </div>
+                    <div>
+                        <input type="button" value="Ver condiciones">
+                    </div>
+                </div>
+                <ul>
+                    <li>Gimnasio</li>
+                    <li>Piscina</li>
+                    <li>Todos los tratamientos</li>
+                </ul>
+            </div>
+            <!-- Categoría Premium -->
+            <div class="presentacion-socios">
+                <div class="tarjeta-categoria-socio">
+                    <div class="rango-socio-logo">
+                        <img src="images/premium.png" alt="">
+                    </div>
+                    <div>
+                        <h1>PREMIUM</h1>
+                    </div>
+                    <div>
+                        <input type="button" value="Ver condiciones">
+                    </div>
+                </div>
+                <ul>
+                    <li>Gimnasio</li>
+                    <li>Todos los tratamientos</li>
+                </ul>
+            </div>
+            <!-- Categoría Plate -->
+            <div class="presentacion-socios">
+                <div class="tarjeta-categoria-socio">
+                    <div class="rango-socio-logo">
+                        <img src="images/plate.png" alt="">
+                    </div>
+                    <div>
+                        <h1>PLATE</h1>
+                    </div>
+                    <div>
+                        <input type="button" value="Ver condiciones">
+                    </div>
+                </div>
+                <ul>
+                    <li>Tratamientos faciales</li>
+                </ul>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="seccion-contacto">
+        <div class="footer-left">
+            <ul>
+                <li><a href="">Politicas de cookies</a></li>
+                <li><a href="">Aviso Legal</a></li>
+                <li><a href="">Protección de datos</a></li>
+                <li><a href="">Mapa del sitio</a></li>
+            </ul>
+        </div>
+        <div class="footer-right">
+                <li>Siguenos en: </li>
+                <ul class="redes-sociales">
+                    <li><a href=""><img src="images/rs_facebook.png" alt=""></a></li>
+                    <li><a href=""><img src="images/rs_twiter.png" alt=""></a></li>
+                    <li><a href=""><img src="images/rs_youtube.png" alt=""></a></li>
+                </ul>
+            
+        </div>
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,414 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.navegacion {
+    background-color: #A3A656;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 70px;
+    height: 70px;
+}
+
+.navegacion-izquierda {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.navegacion-izquierda Ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navegacion-izquierda li {
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+    padding-right: 40px;
+}
+
+.navegacion-izquierda a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.navegacion-izquierda a:hover {
+    color: #FFFF00;
+}
+
+.navegacion-derecha {
+    display: flex;
+    justify-content: flex-end;
+   
+}
+
+.usuario {
+    display: flex;
+    margin: 0;
+    align-items: center;
+}
+
+.usuario h2 {
+    margin: 0;
+    padding: 14px 16px;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.usuario img {
+    width: 50px;
+    height: 50px;
+    align-content: center;
+}
+
+.idiomas {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.idiomas h2 {
+    margin: 0;
+    padding: 14px 16px;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.idiomas img {
+    margin-right: 10px;
+}
+
+/* Munu principal */
+
+.menu-principal {
+    position: relative;
+}
+
+.menu-principal img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.texto-principal {
+    position: absolute;
+    top: 25%;
+    left: 15%;
+}
+
+.menu-principal h1 {
+    font-family: "Romanesco";
+    font-size: 96px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+
+.menu-principal p {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    margin: 0;
+}
+
+/* Reserva de cita */
+
+.reserva-cita {
+    display: flex;
+    flex-direction: ROW;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #F2F6F6;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+.reserva-cita div {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+
+}
+
+input#reservaCita {
+    margin: 10px;
+    padding: 10px;
+    height: 25px;
+    width: 55%;
+    border-radius: 8px;
+    font-size: 16px;
+    border: none;
+}
+
+input#codigoPromocional {
+    margin: 10px;
+    padding: 10px;
+    height: 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    border: none;
+}
+#codigoPromocional::placeholder{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #9E9A9A;
+}
+
+.reserva-cita input {
+    margin: 10px;
+    padding: 10px;
+    height: 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    border: none;
+}
+
+/* Tarjetas de servcio */
+
+.card-service-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 134px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.card-service {
+    width: 325px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.card-service-descripcion {
+    border-radius: 15px 15px 0 0;
+    background-color: #A3A656;
+    text-align: center;
+    color: white;
+}
+
+.card-service-descripcion h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    padding: 10px;
+    margin: 0;
+}
+.card-service-texto {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.card-service-descripcion img {
+    display: block;
+    width: 100%;
+    height: auto
+}
+
+.card-service-pago {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.card-service-pago input {
+    background-color: #A3A656;
+    color: white;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 35px;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.card-service-pago input:hover {
+    background-color: #384001;
+}
+
+.card-service-pago h2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    padding-left: 10px;
+    margin: 0;
+}
+
+/* Para los socios */
+.seccion-socios {
+    height: 770px;
+    background-color: #F2F6F6;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.socios-encabezado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    
+}
+.socios-tarjetas-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 134px;
+    padding-top: 50px;
+}
+
+
+.rango-socio-logo {
+    width: 233px;
+    height: 233px;
+    border-radius: 50%;
+    border: solid 8px #384001;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.rango-socio-logo img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.tarjeta-categoria-socio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 10px;
+}
+
+.tarjeta-categoria-socio h1 {
+    margin-top: 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    
+}
+.tarjeta-categoria-socio input{
+    background-color: #A3A656;
+    color: white;
+    border: none;
+    border-radius: 35px;
+    padding: 15px 90px;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    
+}
+.tarjeta-categoria-socio input:hover {
+    background-color: #384001;
+}
+
+.presentacion-socios {
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.presentacion-socios li {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+/* Footer - contactos */
+
+.seccion-contacto {
+    height: 97px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #384001;
+    color: #A3A656;
+    padding-left: 70px;
+    padding-right: 30px;
+}
+
+.footer-left ul{
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+}
+.footer-left ul li {
+    list-style: none;
+  
+}
+.footer-left a {
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #A3A656;
+    text-transform: uppercase;
+}
+.footer-left a:hover {
+    color: #FFFF00;
+}
+.footer-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.footer-right li {
+    list-style: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    
+}
+.footer-right ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
